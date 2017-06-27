@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>实训第三次课demo</title>
+		<style>
+			#content{
+				background-color: dodgerblue;
+			}
+			#container{
+				color: darkred;
+			}
+			#container p:last-child{
+				color: red;
+			}
+			#content p:nth-child(3){
+				color: red;
+			}
+			#msg p{
+				width: 450px;
+			}
+			#msg>p>span{
+				color: blue;
+			}
+			.div1,.div2{
+				width: 200px;
+				height: 200px;
+				border:1px solid #000;
+			}
+			.div1{
+				padding-bottom: 20px;/*从content往里挤压*/
+				margin-bottom: 20px;/*从content往外挤压，相邻两个元素之间的margin取值设置最大的元素的那个值*/
+			}
+			.div2{
+				padding-top: 50px;
+				margin-top:50px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<input type="text" name="文本" id="" value="" />
+			<input type="password" name="密码" id="" value="" />
+			<input type="submit" name="提交" id="" value="提交" />
+			<input type="reset" name="重置" id="" value="重置" />
+			<!--<input type="radio" name="" id="" value="" />-->
+			<div id="signal_choice">
+				<input type="radio" name="sex" id="male" value="male" />男
+			<input type="radio" name="sex" id="famale" value="famale" />女
+			</div>
+			<input type="button" name="按钮" id="" value="按钮" />
+			<input type="file" name="文件" id="" value="选择文件" />
+			<!--<input type="checkbox" name="" id="" value="" />-->
+			<div id="more_check">
+				<input type="checkbox" />吃
+				<input type="checkbox" />喝
+				<input type="checkbox" />玩
+				<input type="checkbox" />乐
+			</div>
+		</form>
+		<select name="地区" id="" style="width: 80px;height: 40px;">
+			<option value="">北京</option>
+			<option value="">上海</option>
+			<option value="">成都</option>
+			<option value="">深圳</option>
+		</select>
+		<!--样例-->
+		<div id="login_box">
+			<form action="" method="post" style="width: 250px;height: 250px;border: 1px solid #000;" >
+				<h3>账户
+					<input type="text" value=""/>
+				</h3>
+				<h3>密码
+					<input type="text" value=""/>
+				</h3>
+				<h3>城市
+					<select name="city">
+						<option value="">北京</option>
+						<option value="">上海</option>
+						<option value="">成都</option>
+						<option value="">深圳</option>
+					</select>
+				</h3>
+				<input type="submit" value="提交" style="left: 20px;position:absolute;"/>
+				<input type="reset" value="取消" style="left: 180px;position:absolute;"/>
+			</form>
+		</div>
+		<div id="content">
+			 <div id="container">
+			 	<p>ndgfuydsfuyd</p>
+			 	<p>fjhfcgdsuyfgdsuy</p>
+			 </div>
+			 <p>AAAA</p>
+			 <p >VVVV</p>
+			 <p>VVVVFGFGF</p>
+			 <p>GGTGGG</p>
+			 <p>GGGGDDDDD</p>
+		</div>
+		<div id="msg">
+			<p>据官方最新消息，目前已组织州县乡村四级工作力量350人，
+			集中应急安置、<span>投亲靠友</span>、分散安置302人
+			向受灾群众发放必要的生活必需品，保障基本生活需要</p>
+		</div>
+		<div class="div1">hdhyfg</div>
+		<div class="div2">fdhfgh</div>
+	</body>
+</html>
