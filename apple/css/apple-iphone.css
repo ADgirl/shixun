@@ -20,6 +20,9 @@ h2{
 ul,ol,dl{
 	list-style: none;
 }
+	.play-block{
+		display: block;
+	}
 	.wideBox{
 		width: 100%;
 		position: relative;
@@ -104,10 +107,12 @@ ul,ol,dl{
 		display: block;
 	}
 	.content-theme{
+		width: 100%;
 		background-color: #000;
 		color: #fff;
 		padding-top: 60px;
 		margin-bottom: 50px;
+		overflow: hidden;
 	}
 	.content-txt{
 		width: 1000px;
@@ -137,16 +142,45 @@ ul,ol,dl{
 		height: 100%;
 		width: 100%;
 	}
-	.bg-red{
+	.bgcolor-red{
 		background-color: #cc3341;
+	}
+	.bgcolor-white{
+		background-color: #fff;
+	}
+	.bgcolor-lessgray{
+		background-color: #fafafa;
+	}
+	.font-white{
+		color: #fff;
+	}
+	.font-black{
+		color: #000;
+	}
+	.txt-height{
+		height: 200px;
+	}
+	.img-txt-heiht{
+		height: 750px;
+	}
+	.list-box-big{
+		height: 745px;
+	}
+	.list-box-small{
+		height: 200px;
 	}
 	.content-list{
 		width: 100%;
-		height: 745px;
 		margin-bottom: 50px;
 		overflow: hidden;
 	}
-	.content-list li{
+	.bg-red-box{
+		width: 1300px;
+		height: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.content-list>li{
 		width: 100%；
 		height:100%;
 		overflow: hidden;
@@ -164,7 +198,7 @@ ul,ol,dl{
 		width: 550px;
 		position: absolute;
 		margin-top:230px; 
-		right: 50px;
+		right: 150px;
 	}
 	.red-right span{
 		border: 1px solid #fff;
@@ -191,33 +225,43 @@ ul,ol,dl{
 		font-size: 17px;
 	}
 	.img-left{
-		position: absolute;
-		left:0;
 		width: 47.5%;
-		height: 750px;
 		overflow: hidden;
 		text-align: center;
 		display: inline-block;
-		margin-right: 40px;
-		color: #fff;
+		margin-right: 4.5%;
 	}
 	.img-right{
-		position: absolute;
-		right: 0;
 		width: 47.5%;
-		height: 750px;
 		overflow: hidden;
 		text-align: center;		
 		display: inline-block;
-		color: #fff;
+	}
+	.img-left a,.img-right a{
+		color: #6bf;
+		font-size: 17px;
+	}
+	.img-left h2,.img-right h2{
+		font-size: 48px;
+	}
+	.img-black-bgimg{
+		-webkit-text-fill-color: transparent;
+    	-webkit-background-clip: text;
+		background-image: url(../img/howtoshoot_textoverlay_large.jpg);
+		background-size: 100% 100%;
+	}
+	.takeshoot-position{
+		position: relative;
+    	margin-top: 265px;
+    	right: -10px;
 	}
 	.left-img-black{
 		background-image: url('../img/iphoneImg/howtoshoot_large.jpg');
-		background-size: 650px 750px;	
+		background-size: 100% 100%;	
 	}
 	.right-img-pink{
 		background-image: url('../img/iphoneImg/why_switch_large.jpg');
-		background-size: 650px 750px;
+		background-size: 100% 100%;
 	}
 	.left-img-perpoul{
 		overflow: hidden; 
@@ -230,13 +274,26 @@ ul,ol,dl{
 		background-color: #fff;
 		overflow: hidden;
 	}
+	.right-img-black{
+		color: #FFF;
+	    background-color: #000;
+	    overflow: hidden
+	}
+	.right-img-lessblack{
+		color: #FFF;
+	    background-color: #121212;
+	    overflow: hidden
+	}
 	.content-ios11{
-		background-color: #fff;
 		width: 100%;
 		height: 560px;
 		overflow: hidden;
 		margin-bottom: 50px;
 		text-align: center;
+	}
+	.content-ios11 a{
+		color: #6bf;
+		font-size: 17px;
 	}
 	.left-txt{
 		position: absolute;
@@ -245,8 +302,6 @@ ul,ol,dl{
 		margin-left: 200px;
 		width: 500px;
 		vertical-align: center;
-		background-color: #fff;
-		color: #000;
 		text-align: center;
 
 	}
@@ -270,10 +325,9 @@ ul,ol,dl{
 		background-color: #fff;
 	}
 	.img-list{
-		position: absolute;
-		margin-top:50px;
-		width: 1200px;
-		text-align: center;
+		padding-top: 50px;
+	    width: 1120px;
+	    margin: 0 auto;
 	}
 	.img-list li{
 		float: left;
