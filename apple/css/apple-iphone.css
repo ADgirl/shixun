@@ -193,7 +193,7 @@ ul,ol,dl{
 	.img-left{
 		position: absolute;
 		left:0;
-		width: 650px;
+		width: 47.5%;
 		height: 750px;
 		overflow: hidden;
 		text-align: center;
@@ -204,7 +204,7 @@ ul,ol,dl{
 	.img-right{
 		position: absolute;
 		right: 0;
-		width: 650px;
+		width: 47.5%;
 		height: 750px;
 		overflow: hidden;
 		text-align: center;		
@@ -286,3 +286,14 @@ ul,ol,dl{
 		display: block;
 		text-align: center;
 	}
+	.bg-business{
+		width: 100%;
+		background-image: url(../img/iphoneImg/business_large.jpg);
+		background-size: 2560px 506px;
+		overflow: hidden;
+	}
+	.footer{
+		width: 100%;
+		border: 1px solid red;
+	}
+	
