@@ -247,7 +247,7 @@ ul,ol,dl{
 	.img-black-bgimg{
 		-webkit-text-fill-color: transparent;
     	-webkit-background-clip: text;
-		background-image: url(../img/howtoshoot_textoverlay_large.jpg);
+		background-image: url('../img/iphoneImg/howtoshoot_textoverlay_large.jpg');
 		background-size: 100% 100%;
 	}
 	.takeshoot-position{
