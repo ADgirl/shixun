@@ -101,7 +101,7 @@ ul,ol,dl{
 		margin-top: 15px;
 		width:100px;
 		height: 60px;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 	}
 	.product-icon span{
 		display: block;
@@ -160,8 +160,11 @@ ul,ol,dl{
 	.txt-height{
 		height: 200px;
 	}
-	.img-txt-heiht{
-		height: 750px;
+	.img-txt-height{
+		margin-left: auto;
+	    margin-right: auto;
+	    padding-top: 90px;
+	    max-width: 500px;
 	}
 	.list-box-big{
 		height: 745px;
@@ -199,6 +202,7 @@ ul,ol,dl{
 		position: absolute;
 		margin-top:230px; 
 		right: 150px;
+		text-align: center;
 	}
 	.red-right span{
 		border: 1px solid #fff;
@@ -224,18 +228,18 @@ ul,ol,dl{
 		margin-bottom:30px;
 		font-size: 17px;
 	}
-	.img-left{
+	.img-left,.img-right,.img-left-big,.img-right-big{
 		width: 47.5%;
 		overflow: hidden;
 		text-align: center;
 		display: inline-block;
-		margin-right: 4.5%;
+		height: 720px;
 	}
-	.img-right{
-		width: 47.5%;
-		overflow: hidden;
-		text-align: center;		
-		display: inline-block;
+	.img-left-big,.img-right-big{
+		height: 820px;
+	}
+	.img-left,.img-left-big{
+		margin-right: 4.5%;
 	}
 	.img-left a,.img-right a{
 		color: #6bf;
@@ -348,19 +352,52 @@ ul,ol,dl{
 	}
 	.footer{
 		width: 100%;
-		border: 1px solid red;
+		margin-top: -20px;
+	}
+	.footer a,.footer li,.footer p,.footer span{
+		color: #555;
+		font-size: 11px;
+	}
+	.footer h5{
+		font-size: 11px;
+	}
+	.foot-middle-content{
+		width: 1000px;
+		height:80%;
+		margin: 0 auto;
 	}
 	.foot-require{
 		width: 100%;
-		height: 110px;
+		height: 95px;
+		border-bottom: 1px solid #888;
 	}
 	.foot-link-list{
 		width: 100%;
-		height: 150px;
+		height: 270px;
+		margin-top: 10px;
+		border-bottom: 1px solid #888;
 	}
 	.foot-list-box>li{
 		width: 200px;
-		height: 250px;
+		height: 220px;
 		float: left;
+	}
+	.icon-apple{
+		display: inline-block;
+		width: 14px;
+		height: 18px;
+		overflow: hidden;
+	}
+	.foot-copyright{
+		margin-top: 10px;
+		height: 60px;
+		width: 100%;
+	}
+	.illegel-info{
+		display: inline-block;
+	}
+	.country-info{
+		display: inline-block;
+		float: right;
 	}
 	

@@ -1,0 +1,128 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*last day*/
+/*图片播放*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+.banner{
+	margin: 100px;
+	position: relative;
+	width: 198px;
+	overflow: hidden;
+	height:198px;
+}
+.ad{
+	/*width: 198px;*/
+	height: 198px;
+	/*overflow: hidden;*/
+	border: 1px solid red;
+}
+.ad ul{
+	width: 1000px;
+	position: absolute;
+	left: 198px;
+	top: 0;
+	height: 198px;
+}
+.ad ul li{
+	/*position: absolute;*/
+	float: left;
+}
+
+
+.focus{
+	width: 198px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.focus:hover{
+	opacity: 0.8;
+}
+.left,.right{
+	font-size: 20px;
+	background-color: grey;
+	opacity: 0.8;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	width: 50px;
+	height: 100%;
+	line-height: 198px;
+	cursor: pointer;
+	font-family: "黑体";
+	font-weight: bold;
+	display: none;
+}
+.focus .left{
+	float: left;
+}
+.focus .right{
+	float: right;
+}
+
+
+
+
+
+/*today*/
+.box{
+	width: 200px;
+	height: 200px;
+	/*border: 1px solid red;*/
+	border-radius: 2px;
+}
+.img-list{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	list-style: none;
+}
+.img-list a{
+	text-decoration: none;
+}
+.img-list li{
+	float: left;
+	margin-right: 20px;
+}
+.img-list li,img{
+	width: 198px;
+	height: 198px;
+}
+.img-list li:hover img{
+	-webkit-animation: myannimation 2s linear 1;
+}
+/*@-webkit-keyframes myannimation{
+	0%{-webkit-transform:scale(1);translateX(0) rotateY(0)}
+	25%{-webkit-transform:scale(0.9)translateY(5deg) rotateZ(-3deg) ;}
+	50%{-webkit-transform:scale(1.1)translateY(-5deg) rotateZ(3deg);}
+	75%{-webkit-transform:scale(1.1) translateY(5deg) rotateY(-3deg);}
+	100%{-webkit-transform:scale(1)translateY(0) rotateY(0);}
+	}*/
+@-webkit-keyframes myannimation{
+	0%{-webkit-transform: translateX(-5deg) rotateZ(20deg);}
+	50%{-webkit-transform: translateX(5deg) rotateZ(-20deg);}
+	75%{-webkit-transform: rotateY(-60deg);}
+	100%{-webkit-transform: rotateX(60deg);}
+}
+
+
+/*.img-list li:hover img{animation:imgg 1s linear 0s infinite;}
+@keyframes imgg{
+	0%   {transform:rotateY(0deg);}
+	25%{transform:rotateY(90deg);}
+	50%{transform:rotateY(180deg);}
+	75%{transform:rotateY(270deg);}
+	100% {transform:rotateY(360deg);}
+	}*/
