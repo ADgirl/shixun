@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test 8</title>
+		
+		<script src='test8.js'></script>
+	</head>
+	<body>
+		<div id='win1' style="">
+		</div>
+		<button onclick='slider.moveleft()'>&lt;</button>
+		<button onclick='slider.moveright()'>&gt;</button>
+		
+	</body>
+	
+	<script>
+		var slider = new SlideImage({
+			container:'win1',
+			width:500,
+			height:300,
+			imgs:['img/1.jpg','img/2.jpg','img/3.jpg','img/4.jpg','img/5.jpg']
+			
+		});
+	</script>
+</html>
