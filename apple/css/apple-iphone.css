@@ -115,7 +115,6 @@ ul,ol,dl{
 		width: 100%;
 		background-color: #000;
 		color: #fff;
-		padding-top: 60px;
 		margin-bottom: 50px;
 		overflow: hidden;
 	}
@@ -146,6 +145,7 @@ ul,ol,dl{
 		margin-left: 20%;
 		height: 100%;
 		width: 100%;
+		margin-bottom: -5px;
 	}
 	.bgcolor-red{
 		background-color: #cc3341;
@@ -194,7 +194,9 @@ ul,ol,dl{
 		overflow: hidden;
 	}
 	.bg-red-box{
-		width: 85%;
+		max-width: 85%;
+	    min-width: 865px;
+	    overflow: hidden;
 	}
 	.bg-txt-box{
 		width: 885px;
@@ -209,9 +211,8 @@ ul,ol,dl{
 	}
 	.red-left{
 		position: absolute;
-		margin-top: 80px;
-		margin-left: 180px;
-		height: 666px;
+	    padding-top: 80px;
+	    padding-left: 180px;
 	}
 	.red-right{
 		width: 550px;
@@ -255,7 +256,7 @@ ul,ol,dl{
 		height: 950px;
 	}
 	.img-left,.img-left-big{
-		margin-right: 4.5%;
+		margin-right: 4.3%;
 	}
 	.img-a-link{
 		margin-top: 15px;
