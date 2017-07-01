@@ -10,6 +10,7 @@ a{
 }
 a:hover{
 	text-decoration: underline;
+	cursor: pointer;
 }
 h2{
 	font-size: 45px;
@@ -403,6 +404,7 @@ ul,ol,dl{
 	}
 	.bgcolor-white-title{
 		padding: 60px 0;
+		text-align: center;
 	}
 	.bgcolor-white-title h2{
 		margin-bottom: 20px;
