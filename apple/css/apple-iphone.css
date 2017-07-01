@@ -194,7 +194,7 @@ ul,ol,dl{
 		overflow: hidden;
 	}
 	.bg-red-box{
-		width: 1300px;
+		width: 85%;
 	}
 	.bg-txt-box{
 		width: 885px;
@@ -313,7 +313,7 @@ ul,ol,dl{
 	    background: linear-gradient(to bottom, #af4fc1, #4f1b74);
 	}
 	.left-img-perpoul>img{
-		padding-top: 15px;
+		padding-top: 33px;
 	}
 	.right-img-white,.left-img-white{
 		color: #000;
