@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">标题</h1>
+		</header>
+		<div class="mui-content">
+			<!--副标题，可滑动-->
+		    <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+			    <div class="mui-scroll">
+			        <a class="mui-control-item mui-active">
+			            推荐
+			        </a>
+			        <a class="mui-control-item">
+			            热点
+			        </a>
+			        <a class="mui-control-item">
+			            北京
+			        </a>
+			        <a class="mui-control-item">
+			            社会
+			        </a>
+			        <a class="mui-control-item">
+			            娱乐
+			        </a>
+			        <a class="mui-control-item">
+			            科技
+			        </a>
+			    </div>
+			</div>
+			<!--滑块-->
+			<div class="mui-input-row mui-input-range">
+				<label>Range</label>
+				<input type="range" min="0" max="100">
+			</div>
+			<!--单选框-->
+			<div class="mui-input-row mui-radio">
+				<label>radio</label>
+				<input name="radio1" type="radio">
+			</div>
+			<div class="mui-input-row mui-radio mui-left">
+				<label>radio</label>
+				<input name="radio1" type="radio">
+			</div> 
+		</div>
+		
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon mui-icon-phone"></span>
+		        <span class="mui-tab-label">电话</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon mui-icon-email"></span>
+		        <span class="mui-tab-label">邮件</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon mui-icon-gear"></span>
+		        <span class="mui-tab-label">设置</span>
+		    </a>
+		</nav>
+		
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<!--<script type="text/javascript" src="js/new_file.js" ></script>-->
+	</body>
+
+</html>

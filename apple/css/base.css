@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: whitesmoke;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+h2{
+	font-size: 45px;
+}
+ul,ol,dl{
+	list-style: none;
+}
+.backup{
+		padding-bottom: 10px;
+	    background-color: #DCDCDC;
+	    width: 40px;
+	    height: 35px;
+	    z-index: 15;
+	    position: fixed;
+		bottom: 20px;
+		right: 20px;
+	}
+	.backup a:hover{
+		text-decoration: none;
+		color: darkgrey;
+	}
+	.backup-icon{
+		color: lightsteelblue;
+		text-align: center;
+		font-size: 55px;
+	}

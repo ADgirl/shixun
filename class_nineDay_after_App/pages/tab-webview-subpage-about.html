@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<style>
+			html,body {
+				background-color: #efeff4;
+			}
+			.title{
+				margin: 20px 15px 10px;
+				color: #6d6d72;
+				font-size: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+			    <div class="mui-scroll">
+			        <a class="mui-control-item mui-active">
+			            全部
+			        </a>
+			        <a class="mui-control-item">
+			           图片
+			        </a>
+			        <a class="mui-control-item">
+			            视频
+			        </a>
+			        <a class="mui-control-item">
+			            段子
+			        </a>
+			        <a class="mui-control-item">
+			            游戏
+			        </a>
+			        <a class="mui-control-item">
+			            热门
+			        </a>
+			    </div>
+			</div>
+			<div id="slider" class="mui-slider" >
+			  <div class="mui-slider-group mui-slider-loop">
+			    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="../images/Hydrangeas.jpg">
+			      </a>
+			    </div>
+			    <!-- 第一张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="../images/Jellyfish.jpg">
+			      </a>
+			    </div>
+			    <!-- 第二张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="../images/Koala.jpg">
+			      </a>
+			    </div>
+			    <!-- 第三张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="../images/Lighthouse.jpg">
+			      </a>
+			    </div>
+			    <!-- 第四张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="../images/Hydrangeas.jpg">
+			      </a>
+			    </div>
+			    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="../images/Jellyfish.jpg">
+			      </a>
+			    </div>
+			  </div>
+			  <div class="mui-slider-indicator">
+			    <div class="mui-indicator mui-active"></div>
+			    <div class="mui-indicator"></div>
+			    <div class="mui-indicator"></div>
+			    <div class="mui-indicator"></div>
+			  </div>
+			</div>
+			<ul class="mui-table-view">
+			    <li class="mui-table-view-cell mui-media">
+			        <a href="javascript:;">
+			            <img class="mui-media-object mui-pull-left" src="../images/Jellyfish.jpg">
+			            <div class="mui-media-body">
+			                水母
+			                <p class="mui-ellipsis max-width-p">水母身体的主要成分是水，并由内外两胚层所组成，两层间有一个很厚的中胶层，不但透明，而且有漂浮作用。它们在运动时，利用体内喷水反射前进，远远望去，就像一顶顶圆伞在水中迅速漂游；有些水母的伞状体还带有各色花纹，在蓝色的海洋里，这些游动着的色彩各异的水母显得十分美丽。</p>
+			            </div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media">
+			        <a href="javascript:;">
+			            <img class="mui-media-object mui-pull-left" src="../images/Koala.jpg">
+			            <div class="mui-media-body">
+			               考拉
+			                <p class="mui-ellipsis max-width-p">树袋熊并不是熊科动物，而且它们相差甚远。熊科属于食肉目，而树袋熊却属于有袋目。它每天18个小时处于睡眠状态，性情温顺，体态憨厚。</p>
+			            </div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media">
+			        <a href="javascript:;">
+			            <img class="mui-media-object mui-pull-left" src="../images/Lighthouse.jpg">
+			            <div class="mui-media-body">
+			                灯塔
+			                <p class="mui-ellipsis max-width-p">灯塔是一种固定的航标，用以引导船舶航行或指示危险区。现代大型灯塔结构体内有良好的生活、通信设施，可供管理人员居住，但也有重要的灯塔无人看守。</p>
+			            </div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media">
+			        <a href="javascript:;">
+			            <img class="mui-media-object mui-pull-left" src="../images/Hydrangeas.jpg">
+			            <div class="mui-media-body">
+			                八仙花
+			                <p class="mui-ellipsis max-width-p">八仙花花洁白丰满，大而美丽，其花色能红能蓝，令人悦目怡神，是常见的盆栽观赏花木。</p>
+			            </div>
+			        </a>
+			    </li>
+			</ul>
+			
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+		var slider = mui('.mui-slider')
+		slider.slider({
+			interval:1000
+		})
+	</script>
+</html>

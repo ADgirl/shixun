@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		 <header class="mui-bar mui-bar-nav">
+		     <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		     <h1 class="mui-title">标题</h1>
+		 </header>
+		<nav class="mui-bar mui-bar-tab">
+	    		    <a class="mui-tab-item mui-active" id="nav1">
+	    		        <span class="mui-icon mui-icon-home"></span>
+	    		        <span class="mui-tab-label">首页</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" id="nav2">
+	    		        <span class="mui-icon mui-icon-phone"></span>
+	    		        <span class="mui-tab-label">电话</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" id="nav3">
+	    		        <span class="mui-icon mui-icon-email"></span>
+	    		        <span class="mui-tab-label">邮件</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" id="nav4">
+	    		        <span class="mui-icon mui-icon-gear"></span>
+	    		        <span class="mui-tab-label">设置</span>
+	    		    </a>
+	    </nav>
+	    <div class="mui-content">
+	        <div>123456</div>
+	    </div>
+		
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" src="js/h.min.js" ></script>
+		<script type="text/javascript">
+//			mui.init()
+			
+			mui.init({
+			//子页面
+				subpages: [
+					{
+						url:"2.html",
+						id:"sub1.html",
+						styles:{ 
+							top:'45px',//mui标题栏默认高度为45px；
+        					bottom:'44px',//默认为0px，可不定义；
+        					width:'100%',
+        					left:'100%'
+        					}
+					},
+					{
+						url:'3.html',
+						id:'sub2.html',
+						styles:{
+							top:'45px',//mui标题栏默认高度为45px；
+        					bottom:'44px',//默认为0px，可不定义；
+        					left:'200%',
+        					width:'100%'
+        					}
+					},
+					{
+						url:'4.html',
+						id:'sub3.html',
+						styles:{
+							top:'45px',//mui标题栏默认高度为45px；
+        					bottom:'44px',//默认为0px，可不定义；
+        					left:'300%',
+        					width:'100%'
+        					}
+					}]
+			/*//预加载
+				 preloadPages:[
+				    //...
+			 	 ],
+			//下拉刷新、上拉加载
+			 	pullRefresh : {
+				   //...
+			     	},
+			//手势配置
+			 	 gestureConfig:{
+				   //...
+				},
+			//侧滑关闭
+				swipeBack:true, //Boolean(默认false)启用右滑关闭功能
+				
+			//监听Android手机的back、menu按键
+				keyEventBind: {
+					backbutton: true,  //Boolean(默认true)关闭back按键监听
+					menubutton: true   //Boolean(默认true)关闭menu按键监听
+				},
+			//处理窗口关闭前的业务
+				beforeback: function() {
+					//... //窗口关闭前处理其他业务详情点击 ↑ "关闭页面"链接查看
+				},
+			//设置状态栏颜色
+				statusBarBackground: '#9defbcg', //设置状态栏颜色,仅iOS可用
+				preloadLimit:5//预加载窗口数量限制(一旦超出,先进先出)默认不限制*/
+			})
+			
+			
+		
+			h('#nav1').tap(function(){
+				changesub(1)
+			})
+			h('#nav2').tap(function(){
+				changesub(2)
+			})
+			h('#nav3').tap(function(){
+				changesub(3)
+			})
+			h('#nav4').tap(function(){
+				changesub(4)
+			})
+			function changesub(index){
+				 var sub1 = plus.webview.getWebviewById("sub1.html");
+				 var sub2 = plus.webview.getWebviewById("sub2.html");
+				 var sub3 = plus.webview.getWebviewById("sub3.html");
+				 var sub4 = plus.webview.getWebviewById("sub4.html");
+				 sub1.setStyle({
+				 	left:(1 - index) * 100 + '%'
+				 })
+				 sub2.setStyle({
+				 	left:(2 - index) * 100 + '%'
+				 })
+				 sub3.setStyle({
+				 	left:(3 - index) * 100 + '%'
+				 })
+				 sub4.setStyle({
+				 	left:(4 - index) * 100 + '%'
+				 })
+			}
+		</script>
+	</body>
+
+</html>

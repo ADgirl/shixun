@@ -1,0 +1,821 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,dl{
+	list-style: none;
+}
+	.wideBox{
+		width: 100%;
+		position: relative;
+	/*	background-color: red;*/
+	}
+	.header{
+		width: 100%;
+		height: 230px;
+	}
+	.adv-wrapper {
+			z-index: 9999;
+			background: #444;
+			line-height: 1;
+			width: 100%;
+			right:0;
+			height: 40px;
+			z-index: 9999;
+		}
+	.adv-wrapper .adv-wrapper-text {
+			color: #a8a8aa;
+			display: block;
+			line-height: 40px;
+			overflow: hidden;
+			text-decoration: none;
+			text-overflow: ellipsis;
+			text-align: right;
+			max-width: 976px;
+			margin: 0 auto;
+		}
+	.navbar{
+			height: 44px;
+			width: 100%;
+			text-align: center;
+			background-color: #000000;
+			color: #fff;
+		}
+	.navbar-icon{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.navbar-icon li > a {
+		float: left;
+		width: 56px;
+		height: 44px;
+		margin: 0 20px;
+		color: #fff;
+		font-size: 14px;
+		line-height: 44px;
+	}
+	.product{
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		background-color: #f4f4f4;
+	}
+	.product ul{
+		width: 600px;
+		margin: 0 auto;
+		height: 76px;
+		padding-bottom: 49px;	
+		color: #fff;
+		background-color: #f4f4f4;
+	}
+	.product > ul >li{
+		float: left;
+		width: 100px;
+		margin-right: 30px;
+	}
+	.product-icon{
+		color: #fff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 20px;
+	}
+	.product-icon figure{
+		margin-top: 15px;
+		width:100px;
+		height: 60px;
+		border: 1px solid red;
+	}
+	.product-icon span{
+		display: block;
+	}
+	
+	.product{
+		position: relative;
+		height: 103px 	;
+		z-index: 1;
+		text-align: center;
+	}
+.product ul{
+	padding: 0;
+	width: 600px;
+	text-align: center;
+	color: #ccc;
+}
+.product li{
+	margin:0 -36px ;
+	
+	list-style: none;
+	white-space: nowrap;
+}
+
+.iMacProBoder {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 855px;
+}
+.iPadPencil{
+	float: left;
+	margin-left: 8%;
+	width: 41%;
+	height: 800px;
+	
+	
+}
+.iPadPencil h2,p{
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+.iPadsmart h2,p{
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+.ipadapp h2,p{
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+
+.iPadsmart{
+	float: left;
+	margin-left: 2%;
+	width: 41%;
+	height: 800px;
+	
+}
+.ipadapp{
+	float: left;
+	margin-left: 8%;
+	width: 41%;
+	height: 600px;
+	
+}
+.ipadnew{
+	width: 100%;
+	height: 500px;
+	
+}
+.ipadnew h2,p{
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+.ipadcompare{
+	margin: auto;
+	width: 1100px;
+	height: 514px;
+	background-image: url(../img/pad-png/compare_large.png);
+}
+.ipadpay{
+	float: left;
+	width: 41%;
+	margin-left: 8%;
+}
+.ipadpay h2,p,img{
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+.iapsend{
+	float: left;
+	width: 41%;
+	margin-left: 2%;
+}
+.iapsend h2,p,img{
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+.ipadpeijian{
+	width: 1584px;
+	height: 1103px;
+	background-size: 2560px,849px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	background-image: url(../img/pad-jpg/accessories_large.jpg);
+	width: 100%;
+}
+.ipadpeijian h2,p{
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+.ipadedcat{
+	margin-top: -215px;
+	padding-top: 200px;
+	height: 800px;
+	/*background-size: 100%,100%;*/
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	background-image: url(../img/pad-jpg/education_xlarge.jpg);
+	width: 100%;
+	
+}
+.ipadedcatnew{
+	margin-top: 200px;
+	
+}
+.ipadedcatnew h2,p{
+	color: black;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+.ipadshop{
+	padding-top: 200px;
+	margin-top: -190px;
+	height: 800px;
+	/*background-size: 100%,100%;*/
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	background-image: url(../img/pad-jpg/business_xlarge.jpg);
+	width: 100%;
+	
+}
+.ipadshopnew{
+	margin-top: 200px;
+	
+}
+.ipadshopnew h2,p{
+	color: black;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+
+.date{
+	position: relative;
+	margin: 0 auto;
+	color: darkgray;
+	display: inline-block;
+	border: 1px solid darkgray;
+	border-radius: 4px;
+	padding-top:3px;
+	padding-left:15px;
+	padding-right: 15px;
+	padding-bottom: 4px;
+	margin-left: 47%;
+	margin-top: 50px;
+}
+.iMacPro{
+	height: 296px;
+	width: 980px;
+	position: relative;
+	z-index: 1;
+	margin-top: -43px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	padding-top: 65px;
+}
+.ipadpro{
+	height: 299px;
+	width: 980px;
+	position: relative;
+	z-index: 1;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+}
+.iMacPro h2{
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	z-index: 3;
+}
+.iMacPro p{
+	display: block;
+	margin-top: 22px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 400;
+}
+.image-imacpro{
+	width: 1078px;
+	height: 299px;
+	background-size: 1078px 299px;
+	background-repeat: no-repeat;
+	background-image: url(../img/pad-jpg/hero_alt1_large.jpg);
+	position: absolute;
+	z-index: -10;
+	/*top: 173px;
+	left: 50%;
+	margin-left: -384.5px;*/
+}
+
+.iMacBoder{
+	width: 100%;
+	height: 1050px;
+	text-align: center;
+
+}
+.iMacMain{
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 56px;
+	width: 1350px;
+	height: 1136px;
+	background-color: #fafafa;
+}
+.iMacWords p{
+	margin-top:22px ;
+}
+.iMacWords a{
+	display:inline-block;
+	margin-left: 20px;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: .016em;
+	text-align: center;
+}
+.iMacImage{
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+.iMacImage figure{
+	width: 1047px;
+	height: 738px;
+	background-size: 1047px 738px;
+	background-repeat: no-repeat;
+	background-image: url(../img/mac-img/imac_large.jpg);
+	left: 50%;
+	margin-left: -523.5px;
+	position: relative;
+	margin-top: 56px;
+	margin-bottom: 64px;
+}
+
+.MacBookProBoder{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.MacBookProMain{
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 56px;
+	width: 1350px;
+	height: 721px;
+	background-color: #fafafa;
+}
+.MacBookProWords p{
+	margin-top:22px ;
+}
+.MacBookProWords a{
+	display:inline-block;
+	margin-left: 20px;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: .016em;
+	text-align: center;
+	z-index: 10;
+}
+.MacBookProWords h2,p,a{
+	z-index: 10;
+}
+.MacBookProWords{
+	width: 1350px;
+	height: 721px;
+	background-size: 1350px 721px;
+	background-repeat: no-repeat;
+	background-image: url(../img/mac-img/macbookpro_tb_large.jpg);
+	background-position: center center; 
+	display: block;
+}
+.MacBookBoder{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.MacBookMain{
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 56px;
+	width: 1350px;
+	height: 686px;
+	background-color: #fafafa;
+}
+.MacBookWords p{
+	margin-top:22px ;
+}
+.MacBookWords a{
+	display:inline-block;
+	margin-left: 20px;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: .016em;
+	text-align: center;
+}
+.MacBookImage{
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+.MacBookImage figure{
+	width: 955px;
+	height: 341px;
+	background-size: 955px 341px;
+	background-repeat: no-repeat;
+	background-image: url(../img/mac-img/macbook_large.jpg);
+	left: 50%;
+	margin-left: -477.5px;
+	position: relative;
+	margin-top: 75px;
+	margin-bottom: 40px;
+}
+
+.MacCompareBoder{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.MacCompareMain{
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 56px;
+	width: 1350px;
+	height: 590px;
+	background-color: #fafafa;
+}
+.MacCompareWords p{
+	margin-top:22px ;
+}
+.MacCompareWords a{
+	display:inline-block;
+	margin-left: 20px;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: .016em;
+	text-align: center;
+}
+.MacCompareImage{
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+.MacCompareImage figure{
+	width: 757px;
+	height: 341px;
+	background-size: 757px 341px;
+	background-repeat: no-repeat;
+	background-image: url(../img/mac-img/compare_large.jpg);
+	left: 50%;
+	margin-left: -378.5px;
+	position: relative;
+	margin-top: 56px;
+	margin-bottom: 0px;
+}
+
+.BuyStrip{
+	height: 422.783px;
+	text-align: center;
+}
+.BuyStripMain{
+	padding-top:136px ;
+	padding-bottom: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	position: relative;
+	z-index: 1;
+}
+.Periodization{
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	line-height: 40px;
+}	
+.Delivery{
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	float: right;
+	line-height: 40px;
+}
+.Periodization p{
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-style: normal;
+	/*text-align: center;*/	
+}
+.Delivery p{
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-style: normal;
+	/*text-align: center;*/	
+}
+.MacAccessoriesBoder{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.MacAccessoriesMain{
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 56px;
+	width: 1442px;
+	height: 650px;
+	background-color: #fafafa;
+}
+.MacAccessoriesWords p{
+	margin-top:22px ;
+
+}
+.MacAccessoriesWords a{
+	display:inline-block;
+	margin-left: 20px;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: .016em;
+	text-align: center;
+
+}
+.MacAccessoriesWords{
+	position: relative;
+	text-align: center;
+	padding-top:43px ;
+}
+.MacAccessoriesMain figure{
+	width: 1359px;
+	height: 528px;
+	background-size: 1359px 528px;
+	background-repeat: no-repeat;
+	background-image: url(../img/mac-img/accessories_large.jpg);
+	left: 50%;
+	margin-left: -718.5px;
+	position: absolute;
+	margin-top: 11px;
+	margin-bottom: -10px;
+	display: block;
+	
+}
+
+.icloud{
+	width: 1903px;
+	height: 666px;
+/*	text-align: center;*/
+}
+.icloudImage{
+	width: 908px;
+	height: 707px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:163px ;
+}
+.icloudImage figure{
+	width: 991px;
+	height: 557px;
+	background-size: 991px 557px;
+	background-repeat: no-repeat;
+	background-image: url(../img/mac-img/macos_icloud_large.jpg);
+	display: block;
+}
+
+.macOS{
+	
+}
+.macOSUnderstand{
+	width: 980px;
+	height: 202px;
+	margin-left: 26%;
+}
+.macOSUnderstand p,h1{
+	text-align: left;
+	line-height: 30px;
+	margin-top: 17px;
+}
+.DescribeOne a{
+	margin-top: 18px;
+	float: left;
+}
+.DescribeTwo a{
+	margin-top: 18px;
+	float: left;
+}
+.DescribeOne{
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+.DescribeTwo{
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	float: right;
+}
+.macOSDescribe{
+	width: 100%;
+	height: 511px;
+	margin-top: 152px;
+}
+.macOSImage{
+	height: 500px;
+	background-size: 1350px 500px;
+	background-repeat: no-repeat;
+	background-image: url(../img/mac-img/macos_highsierra_large.jpg);
+	position: absolute;
+	width: 100%;
+	background-position: center center;
+	z-index: -10; 
+}
+.macOSDescribeScript{
+	width: 490px;
+	height: 211px;
+	margin-left: 538px;
+	margin-right: auto;
+	margin-bottom: 290px;
+	color: white;
+}
+.macOSDescribeScript h1{
+	font-size: 48px;
+	font-weight: 500;
+	letter-spacing: .0006em;
+}
+.macOSDescribeScript p,a{
+	line-height: 30px;
+}
+.FontOfmacOS{
+	border: 1px solid gainsboro;
+	border-radius: 4px;
+	margin-bottom: 12px;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	white-space: nowrap;
+	z-index: 10;
+	color: #FFFFFF;
+	border-color:#FFFFFF ;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-top: 164px;
+/*	margin-left: 568px;*/
+}
+
+.Applecation{
+	margin-top: 170px;
+	width: 100%;
+}
+.ApplecationMain{
+	background-color: whitesmoke;
+	width: 1350px;
+	height: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.ApplecationTitle h3{
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: .008em;
+	display: block;
+	color: #333;
+	text-align: center;
+	padding-top: 80px;
+}
+.ApplecationTitle p{
+	margin-top: 26px;
+	min-height: 52px;
+	text-align: center;
+	font-size: 22px;
+	line-height: 1.45;
+	font-weight: 300;
+	letter-spacing: .016em;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+.ApplecationBar a{
+	padding-bottom: 11px;
+	border-bottom: 1px solid blueviolet;
+}
+.ApplecationBar{
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
+}
+.ApplecationBar ul{
+	list-style: none;  
+	padding-bottom: 5px;
+	border-bottom: 1px solid gainsboro;
+}
+.ApplecationBar ul li{ 
+	display: inline-block;
+    font-size: 14px;  
+    font-family: "微软雅黑";  
+    height: 30px;  
+    line-height: 30px;  
+    padding: 0 12px;  
+    background-color: #F5F5F5; 
+}
+.ApplecationBarLine{
+                background: none repeat scroll 0 0 #35C4FD;  
+                bottom: 0;  
+                font-size: 0;  
+                height: 2px;  
+                left: 0;  
+                line-height: 2px;  
+				position: absolute;
+}
+
+
+.footer{
+		width: 100%;
+		/*margin-top: 190px;*/
+		margin-top: -100px;
+		background-color: whitesmoke;
+	}
+	.footer a,.footer li,.footer p,.footer span{
+		color: #555;
+		font-size: 11px;
+	}
+	.footer h5{
+		font-size: 11px;
+	}
+	.foot-middle-content{
+		width: 1000px;
+		height:80%;
+		margin: 0 auto;
+	}
+	.foot-link-list{
+		width: 100%;
+		height: 438px;
+		margin-top: 10px;
+		border-bottom: 1px solid #888;
+	}
+	.foot-list-box>li{
+		width: 200px;
+		height: 220px;
+		float: left;
+	}
+	.icon-apple{
+		display: inline-block;
+		width: 14px;
+		height: 28px;
+		overflow: hidden;
+	}
+	.foot-copyright{
+		margin-top: 0px;
+		height: 60px;
+		width: 100%;
+	}
+	.illegel-info{
+		display: inline-block;
+	}
+	.country-info{
+		display: inline-block;
+		float: right;
+	}
+	.backup{
+	    background-color: #DCDCDC;
+	    width: 40px;
+	    height: 35px;
+	    z-index: 15;
+	    position: fixed;
+		bottom: 20px;
+		right: 20px;
+		display: none;
+	}
+	.backup a:hover{
+		text-decoration: none;
+		color: darkgrey;
+	}
+	.backup-icon{
+		color: lightsteelblue;
+		text-align: center;
+		font-size: 55px;
+		position: relative;
+	    /*margin-left: 8px;*/
+	    line-height: 55px;
+	}

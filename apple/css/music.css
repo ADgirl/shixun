@@ -1,0 +1,126 @@
+.home {
+	background-image: url("../img/music/family_hero_large.jpg");
+	height: 520px;
+	background-size: 100%;
+}
+.home-slogan {
+	position: absolute;
+	color: #fff;
+	margin: 150px 0 0 100px;
+}
+.home-slogan-icon {
+	font-size: 35px;
+}
+.home-slogan-text {
+	font-size: 45px;
+	margin: 10px 0;
+}
+.home-slogan-free-link {
+	margin: 30px 0;
+	width: auto;
+}
+.home-slogan-free-link > button{
+	background: #FF365D;
+	background-color: #FF365D;
+	border: none;
+	font-size:17px;
+	border-radius: 4px;
+	padding: 3px 15px;
+	color: #FFF;
+}
+.home-slogan-more-link > a{
+	color:#FFF;
+}
+
+.card-homepod {
+	margin-top: 80px;
+	background-image: url("../img/music/homepod_large.jpg");
+	height: 550px;
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: 600px 40px;
+	background-color: white;
+}
+.card-slogan {
+	position: absolute;
+	color: black;
+	margin: 200px 0 0 100px;
+}
+.card-slogan-icon {
+	font-size: 35px;
+}
+.card-slogan-text {
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+.card-slogan-more-link > a {
+	color: black;
+}
+.main {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #F2F2F2;
+}
+.content-container {
+	position: relative;
+	margin-top: -50px;
+	background-color: #FFF;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	max-width: 80%;
+}
+.content-item {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+.full-content-item {
+	flex: 1;
+}
+
+.half-content-item {
+	flex: 1;
+	margin-top: 40px;
+}
+
+.content-title {
+	font-size: 35px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+.content-text {
+	margin: 20px 0;
+}
+
+.content-text-type {
+	font-size:25px;
+	margin: 10px 0;
+}
+.content-text-name {
+	font-size: 30px;
+	margin: 10px 0;
+}
+.backup{
+		padding-bottom: 10px;
+	    background-color: #DCDCDC;
+	    width: 40px;
+	    height: 35px;
+	    z-index: 15;
+	    position: fixed;
+		bottom: 20px;
+		right: 20px;
+		display: none;
+	}
+	.backup a:hover{
+		text-decoration: none;
+		color: darkgrey;
+	}
+	.backup-icon{
+		color: lightsteelblue;
+		text-align: center;
+		font-size: 55px;
+	}

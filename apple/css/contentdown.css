@@ -1,0 +1,517 @@
+.contentdown{
+	width: 100%;
+	position: relative;
+}
+.contentdown1{
+	width: 100%;
+	height: 430px;
+	/*border: 1px dashed red;*/
+	position: relative;
+}
+.contentdown1 img{
+	width: 280px;
+	height: 200px;
+}
+.contentdown1 strong{
+	font-family: "宋体";
+	font-size: 40px;
+}
+.contentdown1 p{
+	font-family: "宋体";
+	font-size: 18px;
+}
+.contentdown1 a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 18px;
+}
+.contentdown1 a:link,
+.contentdown1 a:visited{
+	text-decoration: none;
+}
+.contentdown1 a:hover,
+.contentdown1 a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown11{
+	width: 200px;
+	height: 60px;
+	/*border: 1px solid blue;*/
+	text-align: center;
+	font-family: "宋体";
+	font-size: 30px;
+	position: relative;
+	top: 20px;
+	margin-left: 42%;
+}
+.contentdown12{
+	width: 420px;
+	height: 350px;
+	/*border: 1px dashed green;*/
+	position: absolute;
+	top: 80px;
+	margin-left: 20%;
+}
+.contentdown13{
+	width: 450px;
+	height: 350px;
+	/*border: 1px dashed green;*/
+	position: absolute;
+	top: 80px;
+	margin-left: 60%;
+}
+.contentdown2{
+	width: 100%;
+	height: 300px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	margin-left: 5%;
+}
+.contentdown2 img{
+	width: 400px;
+	height: 200px;
+	margin-top: 50px;
+}
+.contentdown2 strong{
+	font-family: "宋体";
+	font-size: 40px;
+}
+.contentdown2 a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 20px;
+}
+.contentdown2 p{
+	font-family: "宋体";
+	font-size: 20px;
+}
+.contentdown2 a:link,
+.contentdown2 a:visited{
+	text-decoration: none;
+}
+.contentdown2 a:hover,
+.contentdown2 a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown2left{
+	width: 35%;
+	height: 250px;
+	/*border: 1px dashed red;*/
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 15%;
+}
+.contentdown2right{
+	width: 35%;
+	height: 300px;
+	/*border: 1px dashed red;*/
+	position: absolute;
+	margin-left: 50%;
+}
+.contentdown3{
+
+	width: 100%;
+	height: 150px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	text-align: center;
+}
+.contentdown3 strong{
+	font-family: "宋体";
+	font-size: 40px;
+}
+.contentdown3 a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 20px;
+}
+.contentdown3 a:link,
+.contentdown3 a:visited{
+	text-decoration: none;
+}
+.contentdown3 a:hover,
+.contentdown3 a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown31{
+	width: 50%;
+	height: 100px;
+	/*border: 1px dashed greenyellow;*/
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 40px;
+}
+
+.contentdown4{
+	width: 100%;
+	height: 400px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	text-align: center;
+}
+.contentdown4up{
+	width: 20%;
+	height: 100px;
+	/*border: 1px dashed green;*/
+	position: relative;
+	margin-top: 20px;
+	margin-left: 40%;
+}
+.contentdown4up>img{
+	width: 100px;
+	height: 100px;
+}
+.contentdown4middle{
+	width: 50%;
+	height: 120px;
+	/*border: 1px dashed green;*/
+	position: relative;
+	margin-top: 20px;
+	margin-left: 25%;
+}
+.contentdown4middle>strong{
+	font-family: "宋体";
+	font-size: 40px;
+}
+.contentdown4middle>p{
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown4down{
+	width: 80%;
+	height: 140px;
+	/*border: 1px dashed green;*/
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10%;
+}
+.contentdown4down img{
+	width: 50px;
+	height: 50px;
+}
+.contentdown4down a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown4down a:link,
+.contentdown4down a:visited{
+	text-decoration: none;
+}
+.contentdown4down a:hover,
+.contentdown4down a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown4downleft{
+	width: 25%;
+	height: 120px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 9%;
+}
+.contentdown4downcenter{
+	width: 25%;
+	height: 120px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 39%;
+}
+.contentdown4downright{
+	width: 25%;
+	height: 120px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 69%;
+}
+.contentdown5{
+	width: 100%;
+	height: 250px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+.contentdown5only{
+	width: 50%;
+	height: 300px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	margin-left: 25%;
+}
+.contentdown5only li{
+	list-style: none;
+}
+.contentdown5only li>img{
+	width: 100px;
+	height: 100px;
+}
+.contentdown5only li>strong{
+	font-family: "宋体";
+	font-size: 40px;
+}
+.contentdown5only li>p{
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown5only li a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown5only li a:link,
+.contentdown5only li a:visited{
+	text-decoration: none;
+}
+.contentdown5only li a:hover,
+.contentdown5only li a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown6{
+	width: 100%;
+	height: 150px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+.contentdown6only{
+	width: 60%;
+	height: 180px;
+	/*border: 1px dashed yellow;*/
+	position: relative;
+	margin-left: 20%;
+}
+.contentdown6only li>strong{
+	font-family: "宋体";
+	font-size: 40px;
+}
+.contentdown6only li{
+	list-style: none;
+}
+.contentdown6only li>p{
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown6only li>p>a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown6only li a:link,
+.contentdown6only li a:visited{
+	text-decoration: none;
+}
+.contentdown6only li a:hover,
+.contentdown6only li a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown7{
+	width: 100%;
+	height: 220px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+.contentdown7only{
+	width: 50%;
+	height: 250px;
+	position: relative;
+	margin-left: 25%;
+}
+.contentdown7only li{
+	list-style: none;
+}
+.contentdown7only li>img{
+	width: 100px;
+	height: 100px;
+}
+.contentdown7only li>strong{
+	font-family: "宋体";
+	font-size: 40px;
+}
+.contentdown7only li>p{
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown7only li>a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown7only li a:link,
+.contentdown7only li a:visited{
+	text-decoration: none;
+}
+.contentdown7only li a:hover,
+.contentdown7only li a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown8{
+	width: 100%;
+	height: 190px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+}
+.contentdown8only{
+	width: 50%;
+	height: 250px;
+	position: relative;
+	margin-left: 25%;
+}
+.contentdown8only li{
+	list-style: none;
+}
+.contentdown8only li>strong{
+	font-family: "宋体";
+	font-size: 40px;
+}
+.contentdown8onlyp1{
+	font-family: "宋体";
+	font-size: 25px;
+}
+.contentdown8onlyp2{
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown8only li>input{
+	color: white;
+	background-color: #3399FF;
+	width: 100px;
+	height: 40px;
+}
+.contentdown9{
+	width: 100%;
+	height: 100px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+}
+.contentdown9only{
+	width: 50%;
+	height: 100px;
+	position: relative;
+	margin-left: 25%;
+}
+.contentdown9only strong{
+	font-family: "宋体";
+	font-size: 25px;
+}
+.contentdown9only>a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown9only>a:link,
+.contentdown9only>a:visited{
+	text-decoration: none;
+}
+.contentdown9only>a:hover,
+.contentdown9only>a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown10{
+	width: 100%;
+	height: 250px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	text-align: center;
+}
+.contentdown10only{
+	width: 50%;
+	height: 300px;
+	/*border: 1px dashed red;*/
+	position: relative;
+	margin-left: 25%;
+	margin-top: 50px;
+}
+.contentdown10only li{
+	list-style: none;
+}
+.contentdown10only li strong{
+	font-family: "宋体";
+	font-size: 25px;
+}
+.contentdown10only li a{
+	color: blue;
+	font-family: "宋体";
+	font-size: 15px;
+}
+.contentdown10only li a:link,
+.contentdown10only li a:visited{
+	text-decoration: none;
+}
+.contentdown10only li a:hover,
+.contentdown10only li a:active{
+	color: red;
+	text-decoration: underline;
+}
+.contentdown100{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+}
+.contentdown20{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+}
+.contentdown30{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+}
+.contentdown40{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+	margin-top: -20px;
+}
+.contentdown50{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+}
+.contentdown60{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+}
+.contentdown70{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+}
+.contentdown80{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+}
+.contentdown90{
+	width: 100%;
+	height: 1px;
+	border: 1px solid gainsboro;
+	background-color: gainsboro;
+}

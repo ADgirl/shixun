@@ -1,0 +1,503 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+}
+.container{
+	width: 100%;
+	/*min-width: 800px;*/
+	height: 100%;
+}
+.header{
+	width: 100%;
+	height: 220px;
+}
+
+a{
+	text-decoration: none;
+}
+ul,ol,dl{
+	list-style: none;
+}
+.wideBox{
+	width: 100%;
+	position: relative;
+}
+.adv-wrapper {
+		z-index: 9999;
+		background: #444;
+		line-height: 1;
+		width: 100%;
+		right:0;
+		height: 40px;
+		z-index: 9999;
+	}
+.adv-wrapper .adv-wrapper-text {
+		color: #a8a8aa;
+		display: block;
+		line-height: 40px;
+		overflow: hidden;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		text-align: right;
+		max-width: 976px;
+		margin: 0 auto;
+	}
+.navbar{
+		height: 44px;
+		width: 100%;
+		text-align: center;
+		background-color: #000000;
+		color: #fff;
+	}
+.navbar-icon{
+	width: 1000px;
+	margin: 0 auto;
+}
+.navbar-icon li > a {
+	float: left;
+	width: 56px;
+	height: 44px;
+	margin: 0 20px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 44px;
+}
+.product{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	background-color: #333;
+}
+.product ul{
+	width: 800px;
+	margin: 0 auto;
+	height: 76px;
+	padding-bottom: 49px;	
+	color: #fff;
+	background-color: #333;
+}
+.product > ul >li{
+	float: left;
+	width: 100px;
+	margin-right: 30px;
+}
+.product-icon{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+}
+.product-icon figure{
+	margin-top: 15px;
+	width:100px;
+	height: 60px;
+	border: 1px solid red;
+}
+.product-icon span{
+	display: block;
+}
+
+.nav{
+	width:100%;
+	height: 110px;
+	margin: 0 auto;
+	padding-top: 10px;
+	background-color: whitesmoke;
+}
+.nav ul{
+	width: 1000px;
+	height: 110px;
+	margin: 0 auto;
+	list-style: none;
+}
+.tubiao ul li{
+	 width: 90px;
+	 height: 110px;
+	 margin-left: 10px;
+	 margin-right: 10px;  
+	 text-align: center;
+	 float: left;                      
+}
+.nav-img{
+	
+	width: 70px;
+	height: 60px;
+	text-align: center;
+}
+.nav-description {
+	font-size: 13px;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	color: black;
+}
+.nav-description:hover{
+	color: cornflowerblue;
+}
+.content{
+	width: 100%;
+	text-align: center;
+}
+.watch_logo{
+	width: 100%;
+	height: 1100px;
+	margin: 0 auto;
+	margin-top: -15px;
+	background: url(../img/watch-img/hero_activity_rings_large.jpg) center -120px;
+}
+
+ .logo_watch{
+ 	width: 15%;
+ 	height: 80px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 30px;
+ 	background: url(../img/watch-img/logo_watch_series_2_large.png) center center no-repeat;
+ }
+ .logo_description {
+ 	width: 30%;
+ 	height: 20px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 55px;
+ 	font-size: 20px;
+ 	text-decoration: none;
+ 	
+ }
+ .logo_description a{
+ 	cursor: pointer;
+ 	color: cornflowerblue;
+ 	font-weight: 200;
+ }
+ .logo_description a:hover{
+ 	text-decoration: underline;
+ }
+ .watch_logo_nike{
+	width: 80%;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: url(../img/watch-img/nike_alt_large.jpg) center -60px;
+}
+
+ .logo_watch_nike{
+ 	width: 20%;
+ 	height: 80px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 30px;
+ 	background: url(../img/watch-img/logo_watch_nike_large.png) center center no-repeat;
+ }
+ 
+.watch_hermes_edition{
+	width: 80%;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.watch_logo_hermes{
+	width: 48%;
+	height: 800px;
+	float: left;
+	background:url(../img/watch-img/hermes_large.jpg)  center -60px;
+}
+.logo_watch_hermes{
+	width: 20%;
+ 	height: 80px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 30px;
+ 	background: url(../img/watch-img/logo_watch_hermes_large.png) center center no-repeat;
+}
+.watch_logo_edition{
+	width: 48%;
+	height: 800px;
+	float: right;
+	background:url(../img/watch-img/edition_large.jpg)  center -60px;
+}
+.logo_watch_edition{
+	width: 20%;
+ 	height: 80px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 30px;
+ 	background: url(../img/watch-img/logo_watch_edition_large.png) center center no-repeat;
+}
+.watch_logo_series{
+	width: 80%;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: url(../img/watch-img/series_one_large.jpg) center 0px;
+}
+.logo_watch_series{
+	width: 20%;
+ 	height: 80px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 30px;
+ 	background: url(../img/watch-img/logo_watch_series_1_large.png) center center no-repeat;
+}
+.watch_logo_compare{
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: whitesmoke;
+}
+.logo_watch_compare{
+	width: 100%;
+ 	height: 300px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	background: url(../img/watch-img/compare_large.jpg) center 100px no-repeat;
+}
+.compare_description{
+	width: 30%;
+ 	height: 100px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 30px;
+}
+.compare_description h2{
+	font-size: 30px;
+	font-weight: 100;
+}
+.compare_description a{
+ 	cursor: pointer;
+ 	color: cornflowerblue;
+ 	font-weight: 200;
+ 	font-size: 20px;
+ 	line-height: 50px;
+ }
+ .compare_description a:hover{
+ 	text-decoration: underline;
+ }
+ .server{
+	width: 80%;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.server_free{
+	width: 48%;
+	height: 250px;
+	text-align: center;
+	float: left;
+}
+.server_trem{
+	width: 48%;
+	height: 250px;
+	float: right;
+	text-align: center;
+}
+.server_free_img{
+	width: 5%;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	top: 10px;
+	padding-left: 15%;
+}
+.server_trem_img{
+	width: 5%;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	top: 10px;
+	padding-right: 25%;
+}
+.server_description{
+	width: 30%;
+	height: 80px;
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+.server_description a{
+ 	cursor: pointer;
+ 	color: cornflowerblue;
+ }
+ .server_description a:hover{
+ 	text-decoration: underline;
+ }
+ .watch_band{
+	width: 80%;
+	height: 550px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: whitesmoke;
+}
+.watch_band_picture{
+	width: 25%;
+	height: 550px;
+	padding-left: 20%;
+	float: left;
+	background: url(../img/watch-img/pride_large.jpg) 250px center no-repeat;
+}
+.watch_band_logo{
+	width: 55%;
+	height: 550px;
+	margin: 0 auto;
+	float: left;
+	background: url(../img/watch-img/pride_logo_large.jpg) center center no-repeat;
+}
+.band_description{
+	width: 50%;
+ 	height: 100px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 350px;
+}
+.band_description h2{
+	font-size: 28px;
+	font-weight: 250;
+}
+.band_description a{
+ 	cursor: pointer;
+ 	color: cornflowerblue;
+ 	font-weight: 200;
+ 	font-size: 20px;
+ 	line-height: 50px;
+ }
+ .band_description a:hover{
+ 	text-decoration: underline;
+ }
+ .bands_large{
+ 	width: 80%;
+	height: 750px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: whitesmoke;
+	background: url(../img/watch-img/bands_large.jpg) center center no-repeat;
+ }
+.watch_logo_gallery{
+	width: 48%;
+	height: 700px;
+	float: left;
+	background:url(../img/watch-img/gallery_large.jpg)  center -60px;
+}
+.watch_logo_accessories{
+	width: 48%;
+	height: 700px;
+	float: right;
+	background:url(../img/watch-img/accessories_large.jpg)  center -60px;
+}
+.watch_description_left{
+	width: 48%;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+.watch_description a{
+ 	cursor: pointer;
+ 	color: cornflowerblue;
+ 	font-weight: 200;
+ 	font-size: 20px;
+ 	line-height: 50px;
+ }
+ .watch_description a:hover{
+ 	text-decoration: underline;
+ }
+ .watch_description_right{
+	width: 48%;
+	height: 100px;
+	float: right;
+	margin-top: 10px;
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+.watchOS{
+	width: 48%;
+	height: 700px;
+	float: left;
+	background:url(../img/watch-img/watchos_large.jpg)  center center no-repeat;
+}
+.watch_bright{
+	width: 48%;
+	height: 700px;
+	float: right;
+	background:url(../img/watch-img/films_live_bright_large.jpg)  center center no-repeat;
+}
+.footer{
+		width: 100%;
+		margin-top: -20px;
+		background-color: whitesmoke;
+		line-height: 20px;
+	}
+	.footer a,.footer li,.footer p,.footer span{
+		color: grey;
+		font-size: 11px;
+	}
+	.footer h5{
+		font-size: 11px;
+	}
+	.foot-middle-content{
+		width: 1000px;
+		height:80%;
+		margin: 0 auto;
+	}
+	.foot-require{
+		width: 100%;
+		height: 70px;
+		padding-top: 10px;
+		vertical-align: middle;
+		border-bottom: 1px solid #888;
+
+	}
+	.foot-link-list{
+		width: 100%;
+		height: 300px;
+		margin-top: 10px;
+		border-bottom: 1px solid #888;
+	}
+	.foot-list-box>li{
+		width: 200px;
+		height: 220px;
+		float: left;
+	}
+	.icon-apple{
+		display: inline-block;
+		width: 14px;
+		height: 18px;
+		overflow: hidden;
+	}
+	.foot-copyright{
+		margin-top: 10px;
+		height: 60px;
+		width: 100%;
+	}
+	.illegel-info{
+		display: inline-block;
+	}
+	.country-info{
+		display: inline-block;
+		float: right;
+	}
+	.backup{
+		padding-bottom: 10px;
+	    background-color: #DCDCDC;
+	    width: 40px;
+	    height: 35px;
+	    z-index: 15;
+	    position: fixed;
+		bottom: 20px;
+		right: 20px;
+		display: none;
+	}
+	.backup a:hover{
+		text-decoration: none;
+		color: darkgrey;
+	}
+	.backup-icon{
+		color: lightsteelblue;
+		text-align: center;
+		font-size: 55px;
+	}

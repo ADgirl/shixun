@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>实训第十天demo（响应式）</title>
+		<!--<link rel="stylesheet" type="text/css" href="css/ipad.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mobile.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/pc.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo"></div>
+			<div class="title-link"></div>
+		</header>
+		<div class="content">
+			<ul class="middle-content">
+				<li>
+					<div class="picture">picture
+						<div class="text-inline">text-inline</div>
+					</div>
+					<div class="text">text</div>
+				</li>
+				
+			</ul>
+		</div>
+		<script type="text/javascript">
+			var link = document.head.children[2];
+			//console.log(link)
+			function getClientWidth(){
+				if(window.compact == 'CSS1compact'){
+					return {
+						width:document.documentElement.clientWidth
+					};
+				}else{
+					return{
+						width:document.documentElement.clientWidth
+					};
+				}
+			}
+			var resize = function(){
+				var getwidth = getClientWidth().width;
+				console.log(getwidth)
+				if(getwidth > 1200){
+					link.href = 'css/pc.css'
+				}else if(getwidth < 1200 && getwidth > 767){
+					link.href = 'css/ipad.css'
+				}else{
+					link.href = 'css/mobile.css'
+				}
+			}
+			window.onresize = function(){
+					resize();
+			}
+		</script>
+	</body>
+</html>

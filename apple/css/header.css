@@ -1,0 +1,84 @@
+	.header{
+		width: 100%;
+		/*height: 230px;*/
+	}
+	.adv-wrapper {
+			z-index: 9999;
+			background: #444;
+			line-height: 1;
+			width: 100%;
+			right:0;
+			height: 40px;
+			z-index: 9999;
+		}
+	.adv-wrapper .adv-wrapper-text {
+			color: #a8a8aa;
+			display: block;
+			line-height: 40px;
+			overflow: hidden;
+			text-decoration: none;
+			text-overflow: ellipsis;
+			text-align: right;
+			max-width: 976px;
+			margin: 0 auto;
+		}
+	.navbar{
+			height: 44px;
+			width: 100%;
+			text-align: center;
+			background-color: #333;
+			color: #fff;
+		}
+	.navbar-icon{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.navbar-icon a:hover{
+		opacity: 0.6;
+		text-decoration: none;
+	}
+	.navbar-icon li > a {
+		float: left;
+		width: 56px;
+		height: 44px;
+		margin: 0 20px;
+		color: #fff;
+		font-size: 14px;
+		line-height: 44px;
+	}
+	.product{
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		background-color: #141414;
+	}
+	.product ul{
+		width: 730px;
+		margin: 0 auto;
+		height: 76px;
+		padding-bottom: 49px;	
+		color: #fff;
+	}
+	.product > ul >li{
+		float: left;
+		width: 100px;
+	}
+	.product a:hover{
+		color: #6bf;
+		text-decoration: none;
+	}
+	.product-icon{
+		color: #fff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 20px;
+	}
+	.product-icon figure{
+		margin-top: 15px;
+		width:100px;
+		height: 60px;
+		/*border: 1px solid red;*/
+	}
+	.product-icon span{
+		display: block;
+	}

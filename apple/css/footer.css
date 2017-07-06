@@ -1,0 +1,73 @@
+.footer{
+	width: 100%;
+	margin-top: 20px;
+}
+.footer a,.footer li,.footer p,.footer span{
+	color: #555;
+	font-size: 11px;
+}
+.foot-link-list-content > p > a{
+	color: #66BBFF;
+}
+.footer h5{
+	font-size: 11px;
+}
+.foot-middle-content{
+	width: 1000px;
+	height:80%;
+	margin: 0 auto;
+}
+.foot-require{
+	width: 100%;
+	height: 95px;
+	border-bottom: 1px solid #888;
+}
+.foot-link-list{
+	width: 100%;
+	height: 270px;
+	margin-top: 10px;
+	border-bottom: 1px solid #888;
+}
+.foot-list-box>li{
+	width: 200px;
+	height: 220px;
+	float: left;
+}
+.icon-apple{
+	display: inline-block;
+	width: 14px;
+	height: 18px;
+	overflow: hidden;
+}
+.foot-copyright{
+	margin-top: 10px;
+	height: 60px;
+	width: 100%;
+}
+.illegel-info{
+	display: inline-block;
+}
+.country-info{
+	display: inline-block;
+	float: right;
+}
+.backup{
+		padding-bottom: 10px;
+	    background-color: #DCDCDC;
+	    width: 40px;
+	    height: 35px;
+	    z-index: 15;
+	    position: fixed;
+		bottom: 20px;
+		right: 20px;
+		display: none;
+	}
+	.backup a:hover{
+		text-decoration: none;
+		color: darkgrey;
+	}
+	.backup-icon{
+		color: lightsteelblue;
+		text-align: center;
+		font-size: 55px;
+	}
