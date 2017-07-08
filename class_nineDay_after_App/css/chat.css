@@ -1,0 +1,64 @@
+html,
+body {
+	background-color: #efeff4;
+}
+.title {
+	padding: 20px 15px 10px;
+	color: #6d6d72;
+	font-size: 15px;
+	background-color: #fff;
+}
+.block{
+	display: block;
+}
+.inline-block{
+	display: inline-block;
+}
+.inline{
+	display: inline;
+}
+	.mui-card-header img{
+		width: 20px;
+		height: auto;
+	}
+	.mui-media-body{
+		position: relative;
+		display: inline-block;
+		width: 80%;
+		font-size: 8px;
+		color: darkgray;
+	}
+	.mui-media-body span{
+		display: block;
+	}
+	.mui-card-content p{
+		color: #000;
+		font-size: 14px;
+		font-family: "微软雅黑";
+	}
+	.left-icon{
+		width: 70px;
+		text-align: center;
+	}
+	.font-blue{
+		color: royalblue;
+	}
+	.font-gray{
+		color: darkgray;
+	}
+	.font-10{
+		font-size: 10px;
+		line-height: 13px;
+	}
+	.font-5{
+		font-size: 5px;
+		line-height: 5px;
+	}
+	.mui-icon{
+		font-size: 20px;	
+	}
+	.font-15{
+		font-size: 15px;
+		line-height: 15px;
+	}
+	

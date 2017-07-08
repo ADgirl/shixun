@@ -1,0 +1,87 @@
+	html,body {
+		background-color: #efeff4;
+	}
+	.title{
+		margin: 20px 15px 10px;
+		color: #6d6d72;
+		font-size: 15px;
+	}
+	 .oa-contact-cell.mui-table .mui-table-cell {
+		padding: 11px 0;
+		vertical-align: middle;
+	}
+	
+	.oa-contact-cell {
+		position: relative;
+		margin: -11px 0;
+	}
+
+	.oa-contact-avatar {
+		width: 75px;
+	}
+	.oa-contact-avatar img {
+		border-radius: 50%;
+	}
+	.oa-contact-content {
+		width: 100%;
+	}
+	.oa-contact-name {
+		margin-right: 20px;
+	}
+	.oa-contact-name, oa-contact-position {
+		float: left;
+	}
+	.mui-table-view .mui-media-object{
+		max-width: 120px;
+		height: 120px;
+	}
+	.inline-block{
+		display: inline-block;
+	}
+	.block{
+		display: block;
+	}
+	.mui-icon .mui-badge{
+		top: 16px;
+    	left: 149px;
+	}
+	.label-position{
+		left: 0;
+		margin-right: 25px;
+	}
+	.txt-position{
+		position: relative;
+		color: #000;
+		font-family: "微软雅黑";
+	}
+	.font-red{
+		color: red;
+	}
+	.font-darkgray{
+		color: darkgray;
+		font-size: 12px;
+	}
+	.label-outline{
+		font-size: 12px;
+		line-height: 12px;
+		padding: 0;
+	}
+	.mui-btn-outlined.mui-btn-danger{
+		color: red;
+		border: 1px solid red;
+	}
+	.media-foot{
+		position: absolute;
+		bottom: 5px;
+		width: 60%;
+	}
+	.media-foot .left-paynumber{
+		position: relative;
+	}
+	.media-foot .right-company{
+		background-color: red;
+		float: right;
+		color: #fff;
+	}
+	
+
